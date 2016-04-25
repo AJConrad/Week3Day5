@@ -285,7 +285,7 @@
                                     <action selector="servingChanged:" destination="ive-m5-ZeL" eventType="valueChanged" id="XTv-7D-e2P"/>
                                 </connections>
                             </stepper>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="OD1-2w-1Xi">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="OD1-2w-1Xi">
                                 <rect key="frame" x="120" y="110" width="462" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="zdO-cK-ESu"/>

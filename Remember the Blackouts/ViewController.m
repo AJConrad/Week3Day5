@@ -49,13 +49,19 @@
     
     Occasion *currentLocation = _locationsArray[indexPath.row];
     iCell.textLabel.text = [currentLocation ocassionLocationName];
-    
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
     formatter.dateFormat = @"MM-dd-yyyy HH:mm";
     iCell.detailTextLabel.text = [formatter stringFromDate:currentLocation.ocassionDateTime];
+//    if (currentLocation.relationshipOccasionDrinks drinkAmounts < 2.0) {
+//        iCell.backgroundColor = [COLOR_GREEN];
+//    } else if (currentLocation.relationshipOccasionDrinks drinkAmounts < 4) {
+//        iCell.backgroundColor = [COLOR_YELLOW];
+//    } else {
+//        iCell.backgroundColor = [COLOR_RED];
+//    }
     
     //should color by number of drinks, like green 1 or 2, yellow 3-5, and red 6+
-    //may need to be a new attribute of the occasion entity
+    //I do not know why the above doesnt work
 
     return iCell;
 }
