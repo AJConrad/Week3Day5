@@ -14,6 +14,12 @@
 		491D3EF81CC9494F00255EC5 /* Remember_the_Blackouts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 491D3EF61CC9494F00255EC5 /* Remember_the_Blackouts.xcdatamodeld */; };
 		491D3EFA1CC9494F00255EC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 491D3EF91CC9494F00255EC5 /* Assets.xcassets */; };
 		491D3EFD1CC9494F00255EC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491D3EFB1CC9494F00255EC5 /* LaunchScreen.storyboard */; };
+		491D3F1F1CC95BF400255EC5 /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 491D3F1E1CC95BF400255EC5 /* LocationViewController.m */; };
+		499753E31CCDA2E700C015F3 /* Drink+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 499753DC1CCDA2E700C015F3 /* Drink+CoreDataProperties.m */; };
+		499753E41CCDA2E700C015F3 /* Drink.m in Sources */ = {isa = PBXBuildFile; fileRef = 499753DE1CCDA2E700C015F3 /* Drink.m */; };
+		499753E51CCDA2E700C015F3 /* Occasion+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 499753E01CCDA2E700C015F3 /* Occasion+CoreDataProperties.m */; };
+		499753E61CCDA2E700C015F3 /* Occasion.m in Sources */ = {isa = PBXBuildFile; fileRef = 499753E21CCDA2E700C015F3 /* Occasion.m */; };
+		49D9E87D1CCAAA9900BFF476 /* DrinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D9E87C1CCAAA9900BFF476 /* DrinkViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +34,18 @@
 		491D3EF91CC9494F00255EC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		491D3EFC1CC9494F00255EC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		491D3EFE1CC9494F00255EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		491D3F1D1CC95BF400255EC5 /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
+		491D3F1E1CC95BF400255EC5 /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
+		499753DB1CCDA2E700C015F3 /* Drink+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Drink+CoreDataProperties.h"; sourceTree = "<group>"; };
+		499753DC1CCDA2E700C015F3 /* Drink+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Drink+CoreDataProperties.m"; sourceTree = "<group>"; };
+		499753DD1CCDA2E700C015F3 /* Drink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drink.h; sourceTree = "<group>"; };
+		499753DE1CCDA2E700C015F3 /* Drink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Drink.m; sourceTree = "<group>"; };
+		499753DF1CCDA2E700C015F3 /* Occasion+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Occasion+CoreDataProperties.h"; sourceTree = "<group>"; };
+		499753E01CCDA2E700C015F3 /* Occasion+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Occasion+CoreDataProperties.m"; sourceTree = "<group>"; };
+		499753E11CCDA2E700C015F3 /* Occasion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Occasion.h; sourceTree = "<group>"; };
+		499753E21CCDA2E700C015F3 /* Occasion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Occasion.m; sourceTree = "<group>"; };
+		49D9E87B1CCAAA9900BFF476 /* DrinkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrinkViewController.h; sourceTree = "<group>"; };
+		49D9E87C1CCAAA9900BFF476 /* DrinkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrinkViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,11 +82,16 @@
 				491D3EEE1CC9494F00255EC5 /* AppDelegate.m */,
 				491D3EF01CC9494F00255EC5 /* ViewController.h */,
 				491D3EF11CC9494F00255EC5 /* ViewController.m */,
+				491D3F1D1CC95BF400255EC5 /* LocationViewController.h */,
+				491D3F1E1CC95BF400255EC5 /* LocationViewController.m */,
 				491D3EF31CC9494F00255EC5 /* Main.storyboard */,
+				49D9E87B1CCAAA9900BFF476 /* DrinkViewController.h */,
+				49D9E87C1CCAAA9900BFF476 /* DrinkViewController.m */,
 				491D3EF91CC9494F00255EC5 /* Assets.xcassets */,
 				491D3EFB1CC9494F00255EC5 /* LaunchScreen.storyboard */,
 				491D3EFE1CC9494F00255EC5 /* Info.plist */,
 				491D3EF61CC9494F00255EC5 /* Remember_the_Blackouts.xcdatamodeld */,
+				491D3F101CC94A6F00255EC5 /* Data */,
 				491D3EEA1CC9494F00255EC5 /* Supporting Files */,
 			);
 			path = "Remember the Blackouts";
@@ -80,6 +103,21 @@
 				491D3EEB1CC9494F00255EC5 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		491D3F101CC94A6F00255EC5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				499753DB1CCDA2E700C015F3 /* Drink+CoreDataProperties.h */,
+				499753DC1CCDA2E700C015F3 /* Drink+CoreDataProperties.m */,
+				499753DD1CCDA2E700C015F3 /* Drink.h */,
+				499753DE1CCDA2E700C015F3 /* Drink.m */,
+				499753DF1CCDA2E700C015F3 /* Occasion+CoreDataProperties.h */,
+				499753E01CCDA2E700C015F3 /* Occasion+CoreDataProperties.m */,
+				499753E11CCDA2E700C015F3 /* Occasion.h */,
+				499753E21CCDA2E700C015F3 /* Occasion.m */,
+			);
+			name = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,9 +192,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				491D3EF21CC9494F00255EC5 /* ViewController.m in Sources */,
+				49D9E87D1CCAAA9900BFF476 /* DrinkViewController.m in Sources */,
+				499753E61CCDA2E700C015F3 /* Occasion.m in Sources */,
+				499753E41CCDA2E700C015F3 /* Drink.m in Sources */,
+				499753E51CCDA2E700C015F3 /* Occasion+CoreDataProperties.m in Sources */,
+				491D3F1F1CC95BF400255EC5 /* LocationViewController.m in Sources */,
 				491D3EF81CC9494F00255EC5 /* Remember_the_Blackouts.xcdatamodeld in Sources */,
 				491D3EEF1CC9494F00255EC5 /* AppDelegate.m in Sources */,
 				491D3EEC1CC9494F00255EC5 /* main.m in Sources */,
+				499753E31CCDA2E700C015F3 /* Drink+CoreDataProperties.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +351,7 @@
 				491D3F031CC9494F00255EC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
